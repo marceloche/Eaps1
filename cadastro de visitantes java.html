@@ -103,13 +103,18 @@
         <label for="ex1">Telefone</label>
         <input class="form-control" id="ex1" type="text" required><p>
 		
-      </div>  
+      </div>  	 
 		
   </form>
 <div class="btn-group"></><p><p>
     <button type="button" class="btn btn-primary">Adicionar</button>
-    <button type="submit" class="btn btn-primary">Salvar</button>
+    <button type="submit" class="btn btn-primary" onclick="myFunction()">Salvar</button>
     <button type="button" class="btn btn-primary">Sair</button>
   </div>
+	<script>
+		function myFunction() {
+			confirm("Press a button!");
+	}
+	</script>
 </body>
 </html>
